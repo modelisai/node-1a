@@ -1,19 +1,25 @@
 {
   "name": "node-1a",
-  "version": "1.0.0",
-  "description": "Node.js initial work",
-  "main": "server.js",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-scripts": "2.1.8"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shashmodelis/node-1a.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "author": "Shashvat Sinha, modelis AI",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shashmodelis/node-1a/issues"
-  },
-  "homepage": "https://github.com/shashmodelis/node-1a#readme"
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
