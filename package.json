@@ -1,0 +1,19 @@
+{
+  "name": "node-1a",
+  "version": "1.0.0",
+  "description": "Node.js initial work",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashmodelis/node-1a.git"
+  },
+  "author": "Shashvat Sinha, modelis AI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shashmodelis/node-1a/issues"
+  },
+  "homepage": "https://github.com/shashmodelis/node-1a#readme"
+}
