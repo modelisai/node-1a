@@ -28,5 +28,6 @@ app.delete('/user', function (req, res) {
     res.send('Got a DELETE request at /user')
 })
 
+app.use('/static', express.static('static'))
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
